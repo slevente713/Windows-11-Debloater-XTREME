@@ -77,7 +77,7 @@ winget uninstall --id Microsoft.XPSViewer_8wekyb3d8bbwe --silent
 dism /online /disable-feature /featurename:XPS.Viewer /norestart
 Write-Host "XPS Megjelenítő törlése..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.549981C32F101_8wekyb3d8bbwe --silent
-Write-Host "Cortana törlése..." -ForegroundColor Cyan
+Write-Host "Copilot törlése..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.Copilot_8wekyb3d8bbwe --silent
 $policyPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot"
 if (!(Test-Path $policyPath)) { New-Item -Path $policyPath -Force | Out-Null }
