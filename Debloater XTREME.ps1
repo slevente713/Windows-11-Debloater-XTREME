@@ -107,7 +107,7 @@ Write-Host "Windows Kamera törlése..." -ForegroundColor Cyan
 Disable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Windows-WordPad" -NoRestart
 Write-Host "Wordpad törlése..." -ForegroundColor Cyan
 Disable-WindowsOptionalFeature -Online -FeatureName "Printing-Foundation-Features" -NoRestart
-Write-Host "Fax+Scan letiltása..." -ForegroundColor Cyan
+Write-Host "Nyomtatási szolgáltatás letiltása..." -ForegroundColor Cyan
 Disable-WindowsOptionalFeature -Online -FeatureName "TabletPCOptionalComponents" -NoRestart
 Write-Host "Érintőképernyő és kézírás szolgáltatás letiltása..." -ForegroundColor Cyan
 Set-ExecutionPolicy Restricted -Force
