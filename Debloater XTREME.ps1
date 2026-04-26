@@ -21,6 +21,8 @@ winget uninstall --id Microsoft.ZuneVideo_8wekyb3d8bbwe --silent
 Write-Host "Filmek+TV törlése... Removing Movies and TV..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.YourPhone_8wekyb3d8bbwe --silent
 Write-Host "Telefon kapcsolat törlése... Removing Phone Link..." -ForegroundColor Cyan
+dism /Online /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2Root /NoRestart
+Write-Host "Powershell 2.0 törlése... Removing Powershell 2.0..."
 winget uninstall --id Microsoft.BingWeather_8wekyb3d8bbwe --silent
 Write-Host "Időjárás törlése... Removing Bing Weather..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.BingNews_8wekyb3d8bbwe --silent
