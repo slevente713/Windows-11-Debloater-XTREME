@@ -3,13 +3,9 @@ Ez egy Windows 11 Debloater script ami letöröl mindent ami nem túl fontos. Ez
 
 Hogyan használd? Rámész a Debloater Lite fájlra, és kimásolod a kódot. Megnyitod a Powershell-t Admin jogosultsággal, és beilleszted a kódot. Megvárod hogy lefusson, és utánna indísd újra a géped. How do you use it? Click on the Debloater Lite file and copy the code. Open PowerShell with administrator privileges and paste the code. Wait for it to run, then restart your computer.
 
-## Relase 1.0
-
-*Debloater XTREME* script 1.0 változtatásai: Changes in the *Debloater XTREME* script version 1.0:
+*Debloater XTREME* script változtatásai: Changes in the *Debloater XTREME* script:
 
 Frissíti: *Winget* Updates: *Winget*
 
-Eltávolítja, és letiltja a következő alkalmazásokat és szolgáltatásokat: *Segítség kérése, Visszajelzés küldése, Dev Home törlése, Cortana, To Do, Filmek+TV, Időjárás, Hírek, Sportok, Finanszírozás, Skype, Hangrögzítő, Paint 3D, XPS Megjelenítő, Copilot (Teljesen kiszedi a rendszerből mindenhonnan.), Pénztárca, Sticky Notes (Cetlik), 3D Megjelenítő, Térkép, Tippek, Család, Clipchamp, Windows Movie Maker, Kamera, Wordpad, Fax+Scan, Teams, Teams Personal, Névjegyek, Mixed Reality Portal, Microsoft Solitare Collection, Modern Médialejátszó, ZuneMusic, ZuneVideo, Groove Zene, Internet Explorer 11, Jegyzettömb, Gyors Segítség, Óra, Outlook NEW, XBOX Game Bar, XBOX konzol társalkalmazás, XBOX app, Fotók alkalmazás törlése, Paint, Telefon Kapcsolat* 
-Removes and disables the following apps and services: Get Help, Send Feedback, Uninstall Dev Home, Cortana, To Do, Movies & TV, Weather, News, Sports, Finance, Skype, Voice Recorder, Paint 3D, XPS Viewer, Copilot (Completely removes it from the system everywhere.), Wallet, Sticky Notes, 3D Viewer, Maps, Tips, Family, Clipchamp, Windows Movie Maker, Camera, WordPad, Fax & Scan, Contacts, Mixed Reality Portal, Microsoft Solitaire Collection
-
-## Relase 1.1
+Eltávolítja, és letiltja a következő alkalmazásokat és szolgáltatásokat: *Segítség kérése, Visszajelzés küldése, Dev Home, Cortana, To Do, Filmek+TV, Időjárás, Hírek, Sportok, Finanszírozás, Skype, Hangrögzítő, Paint 3D, XPS Megjelenítő, Copilot (Teljesen kiszedi a rendszerből mindenhonnan.), Pénztárca, Sticky Notes (Cetlik), 3D Megjelenítő, Térkép, Tippek, Család, Clipchamp, Kamera, Wordpad, Fax+Scan, Teams, Teams személyes, Névjegyek, Mixed Reality Portal, Microsoft Solitare Collection, Modern Médialejátszó, Groove Zene, Internet Explorer 11, Gyors Segítség, Óra, Outlook NEW, XBOX Game Bar, XBOX konzol társalkalmazás, XBOX app, Paint, Telefon Kapcsolat, Powershell 2.0* 
+Removes and disables the following apps and services: *Get Help, Send Feedback, Dev Home, Cortana, To Do, Movies & TV, Weather, News, Sports, Finance, Skype, Voice Recorder, Paint 3D, XPS Viewer, Copilot (Completely removes it from the system everywhere.), Wallet, Sticky Notes, 3D Viewer, Maps, Tips, Family, Clipchamp, Camera, WordPad, Fax+Scan, Teams, Teams Personal, People, Mixed Reality Portal, Microsoft Solitaire Collection, Modern Media Player, Groove Music, Internet Explorer 11, Quick Assist, Clock, Outlook NEW, Xbox Game Bar, Xbox Console Companion, Xbox app, Paint, Phone Link, PowerShell 2.0* 
