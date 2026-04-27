@@ -1,9 +1,12 @@
 # Windows-11-Debloater-XTREME
-Ez egy Windows 11 Debloater script ami letöröl mindent ami nem túl fontos. Ez inkább játékra optimalizált. Ha szeretnél egy olyat ami kevésbé tisztítja ki a Windows-t, akkor nézd meg a profilomon a *Lite* verziót. This is a Windows 11 Debloater script that removes everything that isn't essential. It's optimized primarily for gaming. If you'd like a version that cleans up Windows less aggressively, check out the *Lite* version on my profile. 
+Ez egy Windows 11 Debloater script ami letöröl mindent ami nem túl fontos. Ez inkább játékra optimalizált. Ha szeretnél egy olyat ami kevésbé tisztítja ki a Windows-t, akkor nézd meg a profilomon a *Lite* verziót. 
+This is a Windows 11 Debloater script that removes everything that isn't essential. It's optimized primarily for gaming. If you'd like a version that cleans up Windows less aggressively, check out the *Lite* version on my profile. 
 
-Hogyan használd? Rámész a Debloater Lite fájlra, és kimásolod a kódot. Megnyitod a Powershell-t Admin jogosultsággal, és beilleszted a kódot. Megvárod hogy lefusson, és utánna indísd újra a géped. How do you use it? Click on the Debloater Lite file and copy the code. Open PowerShell with administrator privileges and paste the code. Wait for it to run, then restart your computer.
+Hogyan használd? Rámész a Debloater Lite fájlra, és kimásolod a kódot. Megnyitod a Powershell-t Admin jogosultsággal, és beilleszted a kódot. Megvárod hogy lefusson, és utánna indísd újra a géped. 
+How to use it? Click on the Debloater Lite file and copy the code. Open PowerShell with administrator privileges and paste the code. Wait for it to run, then restart your computer.
 
-*Debloater XTREME* script változtatásai: Changes in the *Debloater XTREME* script:
+*Debloater XTREME* script változtatásai: 
+Changes in the *Debloater XTREME* script:
 
 Frissíti: *Winget*
 Updates: *Winget*
