@@ -4,6 +4,13 @@ Write-Host "FIGYELEM! A HIBAÜZENETEKET ZÁRD BE, AZOK CSAK AZT JELENTIK HOGY AZ
 Set-ExecutionPolicy Unrestricted -Force
 winget source update --silent
 Write-Host "Winget források frissítése... Updating Winget sources..." -ForegroundColor Cyan
+Get-AppxPackage *PowerAutomateDesktop* | Remove-AppxPackage
+Write-Host "Power Automate törlése... Removing Power Automate..." -ForegroundColor Cyan
+Get-AppxPackage *OneNote* | Remove-AppxPackage
+Write-Host "OneNote törlése... Removing OneNote..." -ForegroundColor Cyan.
+Get-AppxPackage *OneDrive* | Remove-AppxPackage
+winget uninstall --name "OneDrive" --silent --accept-source-agreements
+Write-Host "SkyDrive és OneDrive törlése... (A SZEMÉLYES ONEDRIVE FÁJLJAID MEGMARADNAK!) Removing SkyDrive and OneDrive.. (THIS SCRIPT WILL KEEP YOUR PERSONAL FILES IN ONEDRIVE!)"
 winget uninstall --id Microsoft.GetHelp_8wekyb3d8bbwe --silent
 Write-Host "Segítség kérése törlése... Removing Get Help..." -ForegroundColor Cyan
 Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
