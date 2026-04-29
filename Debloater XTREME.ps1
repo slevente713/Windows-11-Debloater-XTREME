@@ -18,6 +18,10 @@ winget uninstall --id "9WZDNCRFHVJL" --silent --accept-source-agreements
 Write-Host "Windows Posta és naptár törlése... Removing Windows Mail and calendar..." -ForegroundColor Cyan
 Get-AppxPackage *MicrosoftJournal* | Remove-AppxPackage
 Write-Host "Journal törlése... Removing Journal..."
+Get-AppxPackage *3dbuilder* | Remove-AppxPackage
+Write-Host "3D Builder törlése... Removing 3D builder..." -ForegroundColor Cyan
+Get-AppxPackage *print3d* | Remove-AppxPackage
+Write-Host "Beépített 3D nyomtatási szolgáltatás törlése... Removing Biult-in 3D printing service..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe --silent
 Write-Host "Visszajelzés küldése törlése... Removing Feedback Hub..." -ForegroundColor Cyan..." -ForegroundColor Cyan
 Get-AppxPackage *CandyCrush* | Remove-AppxPackage
@@ -37,14 +41,16 @@ Write-Host "Cortana törlése... Removing Cortana..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.Todos_8wekyb3d8bbwe --silent
 Write-Host "To Do törlése... Removing To Do..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.ZuneVideo_8wekyb3d8bbwe --silent
-Write-Host "Filmek+TV törlése... Removing Movies and TV..." -ForegroundColor Cyan
+Write-Host "Filmek+TV/Zune Video törlése... Removing Movies and TV/Zune Video..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.YourPhone_8wekyb3d8bbwe --silent
 Write-Host "Telefon kapcsolat törlése... Removing Phone Link..." -ForegroundColor Cyan
 dism /Online /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2Root /NoRestart
 Write-Host "Powershell 2.0 törlése... Removing Powershell 2.0..."
 winget uninstall --id Microsoft.BingWeather_8wekyb3d8bbwe --silent
+Get-AppxPackage *bingweather* | Remove-AppxPackage
 Write-Host "Időjárás törlése... Removing Bing Weather..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.BingNews_8wekyb3d8bbwe --silent
+Get-AppxPackage *bingnews* | Remove-AppxPackage
 Write-Host "Hírek törlése... Removing Bing News..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.BingSports_8wekyb3d8bbwe --silent
 Write-Host "Sportok törlése... Removing Bing Sports..." -ForegroundColor Cyan
@@ -120,7 +126,15 @@ Write-Host "Microsoft Család alkalmazás törlése... Removing Microsoft Family
 winget uninstall --id Microsoft.WindowsCalculator_8wekyb3d8bbwe --silent
 Write-Host "Számológép törlése... Removing Calculator..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.ZuneMusic_8wekyb3d8bbwe --silent
-Write-Host "Windows Médialejátszó 11 és Groove zene törlése... Removing Windows Media Player 11 and Groove Music..." -ForegroundColor Cyan
+Write-Host "Windows Médialejátszó 11/Groove Zene/Zune Music törlése... Removing Windows Media Player 11/Groove Music/Zune Music..." -ForegroundColor Cyan
+Get-AppxPackage *reader* | Remove-AppxPackage
+Write-Host "Windows 8 olvasó alkalmazás törlése... Removing Windows 8 reader..." -ForegroundColor Cyan
+Get-AppxPackage *foodanddrink* | Remove-AppxPackage
+Write-Host "Bing Étel-Ital törlése... Removing Bing Food and Drink..." -ForegroundColor Cyan
+Get-AppxPackage *healthandfitness* | Remove-AppxPackage
+Write-Host "Bing Egészség és fitnesz törlése... Removing Bing Health and fitness..." -ForegroundColor Cyan
+Get-AppxPackage *travel* | Remove-AppxPackage
+Write-Host "Bing utazás törlése... Removing Bing travel..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.Clipchamp.Clipchamp_8wekyb3d8bbwe --silent
 Write-Host "Clipchamp törlése... Removing Clipchamp..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.WindowsCamera_8wekyb3d8bbwe --silent
@@ -136,4 +150,4 @@ Write-Host "Fax és Scan letiltása... Disabling Fax and scan..." -ForegroundCol
 dism /Online /Disable-Feature /FeatureName:Microsoft-Windows-StepsRecorder /NoRestart
 Write-Host "Problémarögzítő törlése... Removing Steps Recorder..." -ForegroundColor Cyan
 Set-ExecutionPolicy Restricted -Force
-Write-Host "Végeztünk. Indítsd újra a gépet! We're done! Please restart your comaputer!" -ForegroundColor Cyan
+Write-Host "Végeztünk. Indítsd újra a gépet! We're done! Please restart your computer!" -ForegroundColor Cyan
