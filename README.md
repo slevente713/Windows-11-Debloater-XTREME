@@ -1,4 +1,5 @@
 # Windows-11-Debloater-XTREME
+# ⚠️ FIGYELEM! A README MÉG NINCS FRISSÍTVE! ATTENTION! README IS NOT UPDATED YET! ⚠️
 ## ⚠️ FIGYELEM! EZ A SCRIPT OLYAN ELEMEKET IS LETÖRÖL AMI LEHETSÉGES HOGY FONTOS NEKED! ⚠️ ⚠️ ATTENTION! THIS SCRIPT DELETES SOME SOFTWARE THAT CAN BE IMPORTANT FOR YOU! ⚠️
 
 Ez egy Windows 11 Debloater script ami letöröl mindent ami nem túl fontos. Ez inkább játékra optimalizált. Ha szeretnél egy olyat ami kevésbé tisztítja ki a Windows-t, akkor nézd meg a profilomon a *Lite* verziót. 
