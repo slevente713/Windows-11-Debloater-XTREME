@@ -151,3 +151,4 @@ dism /Online /Disable-Feature /FeatureName:Microsoft-Windows-StepsRecorder /NoRe
 Write-Host "Problémarögzítő törlése... Removing Steps Recorder..." -ForegroundColor Cyan
 Set-ExecutionPolicy Restricted -Force
 Write-Host "Végeztünk. Indítsd újra a gépet! We're done! Please restart your computer!" -ForegroundColor Cyan
+pause
